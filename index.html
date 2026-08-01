@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Love Life ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div id="stars"></div>
+    <div id="shooting-stars"></div>
+    <div id="clouds"></div>
+    <div id="moon"></div>
+    <div id="petals"></div>
+    <div id="balloon-container"></div>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="music/love.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Intro -->
+    <div class="intro-header">
+
+        <p class="delivery-tag">
+            💌 A Special Gift For You 💌
+        </p>
+
+        <div class="balloon-icon">
+            🎈❤️
+        </div>
+
+        <h2 id="typing"></h2>
+
+        <button id="openBtn" onclick="showLove()">
+            Open Your Surprise ❤️
+        </button>
+
+    </div>
+
+    <!-- Envelope -->
+    <div id="envelope" onclick="openLetter()">
+
+        <div class="top"></div>
+
+        <div class="body"></div>
+
+        <div class="envelope-heart">
+            ❤️
+        </div>
+
+    </div>
+
+    <!-- Love Letter -->
+    <div id="letter">
+
+        <!-- Music Player -->
+        <div class="music-player-card">
+
+            <div class="music-details">
+
+                <div class="disc-icon">
+                    🎵
+                </div>
+
+                <div class="song-info">
+                    <h4>Our Song</h4>
+                    <p>The one that's ours ❤️</p>
+                </div>
+
+            </div>
+
+            <button id="musicToggleBtn" onclick="toggleAudio()">
+                ⏸️
+            </button>
+
+        </div>
+
+        <!-- Love Counter -->
+        <div class="countdown-card">
+
+            <h3>❤️ Together Since ❤️</h3>
+
+            <h2 id="loveDays">
+                0 Days
+            </h2>
+
+            <p id="loveTime">
+                Loading...
+            </p>
+
+        </div>
+
+        <!-- Love Letter -->
+        <h2>💌 Dear Puchki ❤️</h2>
+
+        <p class="love-letter">
+From the moment you entered my life, everything started feeling brighter and more beautiful. You are the reason behind my happiest smiles, my strongest hopes, and my most peaceful moments.
+
+<br><br>
+
+Your love has taught me what it truly means to care for someone with all my heart. Every day spent with you becomes a memory I cherish forever, and every moment away from you only makes me miss you more.
+
+<br>
+
+Thank you for loving me, believing in me, and standing by my side through every situation.No matter what life brings, I promise to hold your hand, support your dreams, and choose you again and again. You are not just my girlfriend—you are my best friend, my safe place, my happiness, and the most precious part of my life.
+
+<br>
+
+I love you more than words can ever express, and I will keep loving you today, tomorrow, and for the rest of my life. ❤️
+
+<br><br>
+
+Thank you for loving me,
+supporting me,
+and always staying beside me.
+
+<br><br>
+
+No matter what happens,
+I will always choose you.
+
+<br><br>
+
+Always Forever ❤️
+</p>
+
+        <h3>🌹 Happy Girlfriend's Day My Cutest Baby 🌹</h3>
+
+        <h3 class="gallery-title">
+            📸 Our Beautiful Memories
+        </h3>
+
+        <!-- Polaroid Gallery -->
+        <div class="polaroid-gallery">
+
+            <div class="polaroid">
+                <img src="images/photo1.jpg" alt="Memory 1">
+                <p>Our First Smile ❤️</p>
+            </div>
+
+            <div class="polaroid">
+                <img src="images/photo2.jpg" alt="Memory 2">
+                <p>Best Day Together 🌸</p>
+            </div>
+
+            <div class="polaroid">
+                <img src="images/photo3.jpg" alt="Memory 3">
+                <p>The Person I Love  💕</p>
+            </div>
+
+            <div class="polaroid">
+                <img src="images/photo4.jpg" alt="Memory 4">
+                <p>My Favourite Person 🥹</p>
+            </div>
+
+        </div>
+                <!-- Memory Flip Cards -->
+        <h3>💖 Tap a Memory 💖</h3>
+
+        <div class="flip-grid">
+
+            <!-- Card 1 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+
+                    <div class="flip-front">
+                        <p>FIRST LOVE LETTER 🍿</p>
+                    </div>
+
+                    <div class="flip-back">
+                       <img src="images/myphoto1.jpg" alt="Memory 1">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+
+                    <div class="flip-front">
+                        <p>LOOK WHAT MY PUCHKI GAVE ME ✨</p>
+                    </div>
+
+                    <div class="flip-back">
+                       <img src="images/myphoto2.jpg" alt="Memory 2">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+
+                    <div class="flip-front">
+                        <p> MY PUCHKI WITH ME IN SCHOOL ❤️</p>
+                    </div>
+
+                    <div class="flip-back">
+                       <img src="images/myphoto3.jpg" alt="Memory 3">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+
+                    <div class="flip-front">
+                        <p>PAGLU 💖</p>
+                    </div>
+
+                    <div class="flip-back">
+                        <img src="images/myphoto4.jpg" alt="Memory 4">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <br><br>
+
+        <!-- Ending Message -->
+        <div class="love-ending">
+
+            <h2>❤️ I Love You Today ❤️</h2>
+
+            <h2>❤️ I Love You Tomorrow ❤️</h2>
+
+            <h2>❤️ I Will Love You Foreverrrrrr ❤️</h2>
+
+            <p>
+                Thank you for being the most beautiful part of my life.
+                Every heartbeat reminds me of you.
+                Every dream begins and ends with you.
+            </p>
+
+        </div>
+
+    </div>
+    <!-- End Letter -->
+
+    <!-- Floating Hearts -->
+    <div id="hearts"></div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
